@@ -11,3 +11,4 @@ The training logs, transcribed testing sets, and graphs during training is provi
 
 In the samples folder there are 16 audio samples from the test-clean and test-other sub sets and the corresponding transcription text files.
 
+The modified code used for running is yet to be uploaded
