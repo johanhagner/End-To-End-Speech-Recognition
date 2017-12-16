@@ -1,0 +1,246 @@
+blstm_hidden1/bw/lstm_cell/bias:0 896
+blstm_hidden1/bw/lstm_cell/kernel:0 523264
+blstm_hidden1/bw/lstm_cell/w_f_diag:0 224
+blstm_hidden1/bw/lstm_cell/w_i_diag:0 224
+blstm_hidden1/bw/lstm_cell/w_o_diag:0 224
+blstm_hidden1/fw/lstm_cell/bias:0 896
+blstm_hidden1/fw/lstm_cell/kernel:0 523264
+blstm_hidden1/fw/lstm_cell/w_f_diag:0 224
+blstm_hidden1/fw/lstm_cell/w_i_diag:0 224
+blstm_hidden1/fw/lstm_cell/w_o_diag:0 224
+blstm_hidden2/bw/lstm_cell/bias:0 896
+blstm_hidden2/bw/lstm_cell/kernel:0 602112
+blstm_hidden2/bw/lstm_cell/w_f_diag:0 224
+blstm_hidden2/bw/lstm_cell/w_i_diag:0 224
+blstm_hidden2/bw/lstm_cell/w_o_diag:0 224
+blstm_hidden2/fw/lstm_cell/bias:0 896
+blstm_hidden2/fw/lstm_cell/kernel:0 602112
+blstm_hidden2/fw/lstm_cell/w_f_diag:0 224
+blstm_hidden2/fw/lstm_cell/w_i_diag:0 224
+blstm_hidden2/fw/lstm_cell/w_o_diag:0 224
+blstm_hidden3/bw/lstm_cell/bias:0 896
+blstm_hidden3/bw/lstm_cell/kernel:0 602112
+blstm_hidden3/bw/lstm_cell/w_f_diag:0 224
+blstm_hidden3/bw/lstm_cell/w_i_diag:0 224
+blstm_hidden3/bw/lstm_cell/w_o_diag:0 224
+blstm_hidden3/fw/lstm_cell/bias:0 896
+blstm_hidden3/fw/lstm_cell/kernel:0 602112
+blstm_hidden3/fw/lstm_cell/w_f_diag:0 224
+blstm_hidden3/fw/lstm_cell/w_i_diag:0 224
+blstm_hidden3/fw/lstm_cell/w_o_diag:0 224
+blstm_hidden4/bw/lstm_cell/bias:0 896
+blstm_hidden4/bw/lstm_cell/kernel:0 602112
+blstm_hidden4/bw/lstm_cell/w_f_diag:0 224
+blstm_hidden4/bw/lstm_cell/w_i_diag:0 224
+blstm_hidden4/bw/lstm_cell/w_o_diag:0 224
+blstm_hidden4/fw/lstm_cell/bias:0 896
+blstm_hidden4/fw/lstm_cell/kernel:0 602112
+blstm_hidden4/fw/lstm_cell/w_f_diag:0 224
+blstm_hidden4/fw/lstm_cell/w_i_diag:0 224
+blstm_hidden4/fw/lstm_cell/w_o_diag:0 224
+blstm_hidden5/bw/lstm_cell/bias:0 896
+blstm_hidden5/bw/lstm_cell/kernel:0 602112
+blstm_hidden5/bw/lstm_cell/w_f_diag:0 224
+blstm_hidden5/bw/lstm_cell/w_i_diag:0 224
+blstm_hidden5/bw/lstm_cell/w_o_diag:0 224
+blstm_hidden5/fw/lstm_cell/bias:0 896
+blstm_hidden5/fw/lstm_cell/kernel:0 602112
+blstm_hidden5/fw/lstm_cell/w_f_diag:0 224
+blstm_hidden5/fw/lstm_cell/w_i_diag:0 224
+blstm_hidden5/fw/lstm_cell/w_o_diag:0 224
+output/biases:0 29
+output/weights:0 12992
+Total 52 variables, 5.892125 M parameters
+Step 200 (epoch: 0.168): loss = 482.601 (197.289) / ler = 0.653 (0.715) / lr = 0.00100 (16.773 min)
+Step 400 (epoch: 0.336): loss = 298.921 (184.464) / ler = 0.399 (0.529) / lr = 0.00100 (15.785 min)
+Step 600 (epoch: 0.505): loss = 202.882 (181.614) / ler = 0.317 (0.518) / lr = 0.00100 (15.644 min)
+Step 800 (epoch: 0.673): loss = 208.199 (139.305) / ler = 0.282 (0.488) / lr = 0.00100 (15.728 min)
+Step 1000 (epoch: 0.841): loss = 177.018 (125.239) / ler = 0.270 (0.458) / lr = 0.00100 (15.838 min)
+-----EPOCH:1 (94.750 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-1
+=== Dev Data Evaluation ===
+  CER (clean): 30.096204 %
+  WER (clean): 69.317437 %
+  CER (other): 45.403990 %
+  WER (other): 85.397132 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.160 min
+Step 1200 (epoch: 1.008): loss = 147.896 (123.268) / ler = 0.224 (0.444) / lr = 0.00100 (22.102 min)
+Step 1400 (epoch: 1.177): loss = 121.251 (156.451) / ler = 0.204 (0.444) / lr = 0.00100 (15.909 min)
+Step 1600 (epoch: 1.345): loss = 130.512 (146.083) / ler = 0.190 (0.420) / lr = 0.00100 (16.002 min)
+Step 1800 (epoch: 1.513): loss = 120.149 (155.302) / ler = 0.160 (0.447) / lr = 0.00100 (15.982 min)
+Step 2000 (epoch: 1.681): loss = 126.561 (150.970) / ler = 0.176 (0.421) / lr = 0.00100 (15.968 min)
+Step 2200 (epoch: 1.849): loss = 137.543 (150.063) / ler = 0.174 (0.400) / lr = 0.00100 (16.047 min)
+-----EPOCH:2 (95.220 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-2
+=== Dev Data Evaluation ===
+  CER (clean): 22.763060 %
+  WER (clean): 59.065479 %
+  CER (other): 39.493863 %
+  WER (other): 82.295243 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.246 min
+Step 2400 (epoch: 2.017): loss = 90.961 (131.410) / ler = 0.145 (0.380) / lr = 0.00100 (22.315 min)
+Step 2600 (epoch: 2.185): loss = 108.301 (136.192) / ler = 0.157 (0.408) / lr = 0.00100 (15.970 min)
+Step 2800 (epoch: 2.353): loss = 83.310 (137.986) / ler = 0.128 (0.365) / lr = 0.00100 (16.047 min)
+Step 3000 (epoch: 2.521): loss = 101.198 (147.505) / ler = 0.132 (0.357) / lr = 0.00100 (16.036 min)
+Step 3200 (epoch: 2.690): loss = 114.870 (155.307) / ler = 0.146 (0.387) / lr = 0.00100 (15.949 min)
+Step 3400 (epoch: 2.858): loss = 99.886 (127.496) / ler = 0.131 (0.333) / lr = 0.00100 (15.926 min)
+-----EPOCH:3 (95.135 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-3
+=== Dev Data Evaluation ===
+  CER (clean): 19.273699 %
+  WER (clean): 49.738029 %
+  CER (other): 36.873334 %
+  WER (other): 73.108633 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.122 min
+Step 3600 (epoch: 3.025): loss = 84.981 (125.382) / ler = 0.123 (0.319) / lr = 0.00100 (22.156 min)
+Step 3800 (epoch: 3.193): loss = 72.697 (109.837) / ler = 0.093 (0.321) / lr = 0.00100 (15.940 min)
+Step 4000 (epoch: 3.362): loss = 95.642 (116.130) / ler = 0.117 (0.291) / lr = 0.00100 (16.067 min)
+Step 4200 (epoch: 3.530): loss = 68.148 (110.635) / ler = 0.099 (0.296) / lr = 0.00100 (15.960 min)
+Step 4400 (epoch: 3.698): loss = 69.039 (91.536) / ler = 0.107 (0.315) / lr = 0.00100 (15.967 min)
+Step 4600 (epoch: 3.866): loss = 74.208 (98.937) / ler = 0.106 (0.335) / lr = 0.00100 (16.016 min)
+-----EPOCH:4 (95.155 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-4
+=== Dev Data Evaluation ===
+  CER (clean): 17.432238 %
+  WER (clean): 46.295097 %
+  CER (other): 35.258571 %
+  WER (other): 72.762315 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.165 min
+Step 4800 (epoch: 4.034): loss = 74.930 (124.552) / ler = 0.094 (0.349) / lr = 0.00100 (22.135 min)
+Step 5000 (epoch: 4.202): loss = 74.000 (130.145) / ler = 0.094 (0.306) / lr = 0.00100 (15.946 min)
+Step 5200 (epoch: 4.370): loss = 87.462 (114.514) / ler = 0.107 (0.339) / lr = 0.00100 (15.976 min)
+Step 5400 (epoch: 4.538): loss = 66.094 (115.064) / ler = 0.088 (0.316) / lr = 0.00100 (15.904 min)
+Step 5600 (epoch: 4.706): loss = 78.601 (129.909) / ler = 0.108 (0.352) / lr = 0.00100 (15.977 min)
+Step 5800 (epoch: 4.875): loss = 72.481 (105.013) / ler = 0.098 (0.338) / lr = 0.00100 (16.006 min)
+-----EPOCH:5 (94.935 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-5
+=== Dev Data Evaluation ===
+  CER (clean): 16.186655 %
+  WER (clean): 43.271408 %
+  CER (other): 34.367474 %
+  WER (other): 70.062971 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.194 min
+Step 6000 (epoch: 5.042): loss = 65.183 (105.626) / ler = 0.091 (0.336) / lr = 0.00100 (22.127 min)
+Step 6200 (epoch: 5.210): loss = 49.427 (135.513) / ler = 0.077 (0.349) / lr = 0.00100 (15.959 min)
+Step 6400 (epoch: 5.378): loss = 52.892 (155.765) / ler = 0.087 (0.325) / lr = 0.00100 (15.941 min)
+Step 6600 (epoch: 5.547): loss = 51.449 (106.475) / ler = 0.066 (0.350) / lr = 0.00100 (15.921 min)
+Step 6800 (epoch: 5.715): loss = 59.005 (131.594) / ler = 0.084 (0.315) / lr = 0.00100 (15.940 min)
+Step 7000 (epoch: 5.883): loss = 61.313 (136.369) / ler = 0.108 (0.335) / lr = 0.00100 (15.935 min)
+-----EPOCH:6 (94.863 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-6
+=== Dev Data Evaluation ===
+  CER (clean): 15.583723 %
+  WER (clean): 42.055612 %
+  CER (other): 34.034352 %
+  WER (other): 70.101299 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.182 min
+Step 7200 (epoch: 6.050): loss = 55.272 (114.751) / ler = 0.077 (0.315) / lr = 0.00100 (22.170 min)
+Step 7400 (epoch: 6.219): loss = 56.829 (89.241) / ler = 0.080 (0.310) / lr = 0.00100 (15.896 min)
+Step 7600 (epoch: 6.387): loss = 45.858 (92.248) / ler = 0.078 (0.265) / lr = 0.00100 (19.129 min)
+Step 7800 (epoch: 6.555): loss = 72.029 (112.563) / ler = 0.096 (0.306) / lr = 0.00100 (19.291 min)
+Step 8000 (epoch: 6.723): loss = 43.162 (130.873) / ler = 0.072 (0.288) / lr = 0.00100 (26.511 min)
+Step 8200 (epoch: 6.891): loss = 52.860 (92.514) / ler = 0.082 (0.313) / lr = 0.00100 (27.036 min)
+-----EPOCH:7 (125.198 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-7
+=== Dev Data Evaluation ===
+  CER (clean): 14.945797 %
+  WER (clean): 40.079070 %
+  CER (other): 33.117422 %
+  WER (other): 68.290940 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.080 min
+Step 8400 (epoch: 7.059): loss = 31.697 (130.040) / ler = 0.063 (0.335) / lr = 0.00100 (24.193 min)
+Step 8600 (epoch: 7.227): loss = 46.816 (107.439) / ler = 0.077 (0.297) / lr = 0.00100 (16.189 min)
+Step 8800 (epoch: 7.395): loss = 44.991 (109.991) / ler = 0.066 (0.301) / lr = 0.00100 (18.219 min)
+Step 9000 (epoch: 7.563): loss = 59.179 (139.069) / ler = 0.089 (0.373) / lr = 0.00100 (17.770 min)
+Step 9200 (epoch: 7.732): loss = 43.046 (135.588) / ler = 0.070 (0.360) / lr = 0.00100 (17.683 min)
+Step 9400 (epoch: 7.900): loss = 52.955 (107.900) / ler = 0.083 (0.326) / lr = 0.00100 (19.274 min)
+-----EPOCH:8 (106.260 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-8
+=== Dev Data Evaluation ===
+  CER (clean): 14.656458 %
+  WER (clean): 39.491071 %
+  CER (other): 32.585694 %
+  WER (other): 66.602728 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 7.684 min
+Step 9600 (epoch: 8.067): loss = 44.986 (96.690) / ler = 0.058 (0.321) / lr = 0.00100 (26.983 min)
+Step 9800 (epoch: 8.235): loss = 51.182 (118.872) / ler = 0.072 (0.344) / lr = 0.00100 (19.047 min)
+Step 10000 (epoch: 8.404): loss = 37.323 (139.618) / ler = 0.057 (0.323) / lr = 0.00100 (18.521 min)
+Step 10200 (epoch: 8.572): loss = 41.747 (130.098) / ler = 0.066 (0.324) / lr = 0.00100 (19.294 min)
+Step 10400 (epoch: 8.740): loss = 36.341 (125.553) / ler = 0.060 (0.296) / lr = 0.00100 (19.390 min)
+Step 10600 (epoch: 8.908): loss = 48.570 (156.512) / ler = 0.061 (0.295) / lr = 0.00100 (19.540 min)
+-----EPOCH:9 (114.851 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-9
+=== Dev Data Evaluation ===
+  CER (clean): 14.256332 %
+  WER (clean): 38.555957 %
+  CER (other): 32.540183 %
+  WER (other): 67.510620 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 9.169 min
+Step 10800 (epoch: 9.076): loss = 35.904 (116.131) / ler = 0.062 (0.335) / lr = 0.00100 (30.789 min)
+Step 11000 (epoch: 9.244): loss = 36.453 (140.484) / ler = 0.053 (0.329) / lr = 0.00100 (22.253 min)
+Step 11200 (epoch: 9.412): loss = 39.955 (120.095) / ler = 0.053 (0.308) / lr = 0.00100 (24.611 min)
+Step 11400 (epoch: 9.580): loss = 48.183 (121.547) / ler = 0.068 (0.301) / lr = 0.00100 (20.438 min)
+Step 11600 (epoch: 9.748): loss = 40.844 (139.566) / ler = 0.077 (0.338) / lr = 0.00100 (19.711 min)
+Step 11800 (epoch: 9.917): loss = 40.258 (112.818) / ler = 0.057 (0.315) / lr = 0.00100 (16.964 min)
+-----EPOCH:10 (122.426 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-10
+=== Dev Data Evaluation ===
+  CER (clean): 13.922754 %
+  WER (clean): 37.640548 %
+  CER (other): 31.839158 %
+  WER (other): 65.611992 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 6.250 min
+Step 12000 (epoch: 10.084): loss = 41.009 (133.709) / ler = 0.074 (0.304) / lr = 0.00100 (23.112 min)
+Step 12200 (epoch: 10.252): loss = 28.360 (99.372) / ler = 0.045 (0.294) / lr = 0.00100 (19.276 min)
+Step 12400 (epoch: 10.420): loss = 39.404 (137.919) / ler = 0.054 (0.340) / lr = 0.00100 (19.254 min)
+Step 12600 (epoch: 10.589): loss = 44.700 (118.621) / ler = 0.059 (0.319) / lr = 0.00100 (19.187 min)
+Step 12800 (epoch: 10.757): loss = 42.089 (133.242) / ler = 0.056 (0.362) / lr = 0.00100 (18.626 min)
+Step 13000 (epoch: 10.925): loss = 39.519 (99.306) / ler = 0.059 (0.291) / lr = 0.00100 (18.542 min)
+-----EPOCH:11 (113.101 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-11
+=== Dev Data Evaluation ===
+  CER (clean): 14.011547 %
+  WER (clean): 37.674255 %
+  CER (other): 31.926212 %
+  WER (other): 66.890923 %
+Evaluation time: 9.683 min
+Step 13200 (epoch: 11.093): loss = 37.957 (104.260) / ler = 0.057 (0.330) / lr = 0.00100 (28.362 min)
+Step 13400 (epoch: 11.261): loss = 38.329 (107.003) / ler = 0.047 (0.309) / lr = 0.00100 (18.298 min)
+Step 13600 (epoch: 11.429): loss = 40.840 (132.324) / ler = 0.053 (0.368) / lr = 0.00100 (19.015 min)
+Step 13800 (epoch: 11.597): loss = 31.403 (83.467) / ler = 0.062 (0.284) / lr = 0.00100 (18.957 min)
+Step 14000 (epoch: 11.765): loss = 43.061 (127.070) / ler = 0.065 (0.308) / lr = 0.00100 (18.353 min)
+Step 14200 (epoch: 11.933): loss = 38.012 (105.102) / ler = 0.073 (0.309) / lr = 0.00100 (17.875 min)
+-----EPOCH:12 (108.792 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-12
+=== Dev Data Evaluation ===
+  CER (clean): 13.703194 %
+  WER (clean): 36.730837 %
+  CER (other): 32.101830 %
+  WER (other): 65.524103 %
+Evaluation time: 7.165 min
+Step 14400 (epoch: 12.101): loss = 30.108 (97.563) / ler = 0.046 (0.237) / lr = 0.00010 (25.083 min)
+Step 14600 (epoch: 12.269): loss = 36.019 (82.377) / ler = 0.054 (0.255) / lr = 0.00010 (19.942 min)
+Step 14800 (epoch: 12.437): loss = 41.607 (92.285) / ler = 0.057 (0.286) / lr = 0.00010 (26.433 min)
+Step 15000 (epoch: 12.605): loss = 37.683 (94.774) / ler = 0.047 (0.258) / lr = 0.00010 (25.038 min)
+Step 15200 (epoch: 12.774): loss = 26.050 (119.973) / ler = 0.053 (0.289) / lr = 0.00010 (19.971 min)
+Step 15400 (epoch: 12.942): loss = 32.838 (95.874) / ler = 0.043 (0.294) / lr = 0.00010 (22.460 min)
+-----EPOCH:13 (131.305 min)-----
+Model saved in file: /home/tay/Documents/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3_drop0.8_stack3_wd1e-8/model.ckpt-13
+=== Dev Data Evaluation ===
+  CER (clean): 12.411376 %
+  WER (clean): 34.413643 %
+  CER (other): 30.373548 %
+  WER (other): 63.652526 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 7.781 min
+Step 15600 (epoch: 13.109): loss = 23.135 (84.209) / ler = 0.045 (0.250) / lr = 0.00010 (27.274 min)

@@ -1,0 +1,275 @@
+Step 200 (epoch: 0.015): loss = 381.480 (201.053) (254.983) / ler = 0.684 (0.753) (0.705) / (00:12:12)
+Step 400 (epoch: 0.030): loss = 298.364 (160.592) (146.558) / ler = 0.457 (0.543) (0.429) / (00:24:00)
+Step 600 (epoch: 0.045): loss = 255.197 (226.695) (160.664) / ler = 0.369 (0.510) (0.394) / (00:35:31)
+Step 800 (epoch: 0.060): loss = 230.031 (138.180) (118.354) / ler = 0.356 (0.486) (0.348) / (00:47:02)
+Step 1000 (epoch: 0.075): loss = 199.586 (172.764) (115.102) / ler = 0.302 (0.440) (0.338) / (00:58:37)
+Step 1200 (epoch: 0.090): loss = 189.926 (160.556) (122.977) / ler = 0.267 (0.409) (0.280) / (01:10:12)
+Step 1400 (epoch: 0.105): loss = 151.166 (127.006) (138.301) / ler = 0.290 (0.415) (0.285) / (01:21:45)
+-----EPOCH:0 (90.742 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-1
+=== Dev Data Evaluation ===
+  CER (clean): 29.247881 %
+  WER (clean): 67.987283 %
+  CER (other): 42.794536 %
+  WER (other): 82.360896 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.763 min
+Step 1600 (epoch: 0.119): loss = 130.773 (100.421) (95.131) / ler = 0.221 (0.435) (0.276) / (01:33:21)
+Step 1800 (epoch: 0.134): loss = 148.132 (133.923) (96.267) / ler = 0.233 (0.384) (0.237) / (01:44:55)
+Step 2000 (epoch: 0.149): loss = 137.657 (107.760) (65.337) / ler = 0.218 (0.400) (0.209) / (01:56:34)
+Step 2200 (epoch: 0.164): loss = 120.020 (142.480) (72.235) / ler = 0.208 (0.411) (0.226) / (02:08:06)
+Step 2400 (epoch: 0.179): loss = 150.262 (117.875) (70.428) / ler = 0.228 (0.352) (0.231) / (02:19:41)
+Step 2600 (epoch: 0.194): loss = 126.748 (119.652) (61.525) / ler = 0.186 (0.344) (0.198) / (02:31:18)
+Step 2800 (epoch: 0.209): loss = 123.297 (119.826) (60.656) / ler = 0.194 (0.369) (0.221) / (02:42:52)
+Step 3000 (epoch: 0.224): loss = 110.571 (110.179) (56.878) / ler = 0.175 (0.357) (0.203) / (02:54:30)
+-----EPOCH:0 (90.087 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-2
+=== Dev Data Evaluation ===
+  CER (clean): 21.096678 %
+  WER (clean): 55.208287 %
+  CER (other): 35.430101 %
+  WER (other): 74.835558 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.819 min
+Step 3200 (epoch: 0.239): loss = 132.072 (108.833) (74.270) / ler = 0.227 (0.339) (0.181) / (03:06:03)
+Step 3400 (epoch: 0.254): loss = 107.808 (79.723) (60.431) / ler = 0.170 (0.309) (0.164) / (03:17:39)
+Step 3600 (epoch: 0.269): loss = 120.385 (103.511) (53.702) / ler = 0.188 (0.290) (0.155) / (03:29:11)
+Step 3800 (epoch: 0.284): loss = 123.980 (93.493) (73.663) / ler = 0.182 (0.332) (0.174) / (03:40:44)
+Step 4000 (epoch: 0.299): loss = 107.688 (122.034) (68.956) / ler = 0.178 (0.355) (0.199) / (03:52:20)
+Step 4200 (epoch: 0.314): loss = 101.461 (116.844) (59.052) / ler = 0.163 (0.316) (0.161) / (04:03:59)
+Step 4400 (epoch: 0.329): loss = 128.683 (110.436) (52.892) / ler = 0.175 (0.317) (0.171) / (04:15:34)
+-----EPOCH:0 (89.911 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-3
+=== Dev Data Evaluation ===
+  CER (clean): 18.403937 %
+  WER (clean): 48.650599 %
+  CER (other): 32.794717 %
+  WER (other): 68.928512 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.746 min
+Step 4600 (epoch: 0.343): loss = 103.613 (100.881) (34.083) / ler = 0.186 (0.316) (0.140) / (04:27:13)
+Step 4800 (epoch: 0.358): loss = 119.873 (102.002) (53.300) / ler = 0.172 (0.284) (0.154) / (04:38:50)
+Step 5000 (epoch: 0.373): loss = 86.921 (72.926) (61.505) / ler = 0.146 (0.271) (0.142) / (04:50:26)
+Step 5200 (epoch: 0.388): loss = 89.660 (100.698) (45.168) / ler = 0.164 (0.304) (0.165) / (05:01:58)
+Step 5400 (epoch: 0.403): loss = 106.233 (86.646) (59.715) / ler = 0.168 (0.284) (0.164) / (05:13:33)
+Step 5600 (epoch: 0.418): loss = 81.351 (90.974) (62.475) / ler = 0.124 (0.281) (0.180) / (05:25:05)
+Step 5800 (epoch: 0.433): loss = 89.739 (101.371) (48.369) / ler = 0.154 (0.311) (0.183) / (05:36:37)
+Step 6000 (epoch: 0.448): loss = 84.041 (121.724) (55.732) / ler = 0.130 (0.281) (0.180) / (05:48:13)
+-----EPOCH:0 (90.071 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-4
+=== Dev Data Evaluation ===
+  CER (clean): 16.106763 %
+  WER (clean): 44.356302 %
+  CER (other): 29.612150 %
+  WER (other): 65.517676 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.799 min
+Step 6200 (epoch: 0.463): loss = 97.874 (92.959) (60.454) / ler = 0.152 (0.275) (0.159) / (05:59:47)
+Step 6400 (epoch: 0.478): loss = 86.495 (94.112) (70.060) / ler = 0.134 (0.274) (0.187) / (06:11:21)
+Step 6600 (epoch: 0.493): loss = 79.312 (79.574) (74.018) / ler = 0.145 (0.254) (0.146) / (06:22:56)
+Step 6800 (epoch: 0.508): loss = 82.469 (87.139) (52.969) / ler = 0.137 (0.299) (0.147) / (06:34:37)
+Step 7000 (epoch: 0.523): loss = 76.274 (70.502) (36.629) / ler = 0.129 (0.291) (0.136) / (06:46:11)
+Step 7200 (epoch: 0.538): loss = 74.806 (99.081) (53.433) / ler = 0.108 (0.269) (0.148) / (06:57:44)
+Step 7400 (epoch: 0.553): loss = 78.975 (88.376) (53.954) / ler = 0.140 (0.262) (0.141) / (07:09:23)
+-----EPOCH:0 (90.091 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-5
+=== Dev Data Evaluation ===
+  CER (clean): 14.994505 %
+  WER (clean): 41.297133 %
+  CER (other): 28.355429 %
+  WER (other): 62.545937 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.751 min
+Step 7600 (epoch: 0.567): loss = 83.236 (78.542) (45.684) / ler = 0.121 (0.272) (0.116) / (07:21:01)
+Step 7800 (epoch: 0.582): loss = 92.876 (79.476) (52.325) / ler = 0.160 (0.263) (0.129) / (07:32:34)
+Step 8000 (epoch: 0.597): loss = 69.647 (75.006) (61.514) / ler = 0.101 (0.299) (0.126) / (07:44:15)
+Step 8200 (epoch: 0.612): loss = 84.720 (76.908) (48.893) / ler = 0.119 (0.277) (0.137) / (07:55:51)
+Step 8400 (epoch: 0.627): loss = 101.410 (78.326) (39.409) / ler = 0.155 (0.257) (0.150) / (08:07:23)
+Step 8600 (epoch: 0.642): loss = 69.507 (70.597) (56.231) / ler = 0.160 (0.228) (0.137) / (08:18:58)
+Step 8800 (epoch: 0.657): loss = 100.452 (69.837) (40.517) / ler = 0.150 (0.254) (0.151) / (08:30:31)
+Step 9000 (epoch: 0.672): loss = 82.672 (118.526) (55.564) / ler = 0.122 (0.267) (0.161) / (08:42:11)
+-----EPOCH:0 (90.211 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-6
+=== Dev Data Evaluation ===
+  CER (clean): 13.858684 %
+  WER (clean): 38.708738 %
+  CER (other): 27.219641 %
+  WER (other): 60.508387 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.765 min
+Step 9200 (epoch: 0.687): loss = 91.096 (89.658) (42.310) / ler = 0.158 (0.302) (0.141) / (08:53:44)
+Step 9400 (epoch: 0.702): loss = 48.183 (62.193) (50.481) / ler = 0.095 (0.253) (0.139) / (09:05:21)
+Step 9600 (epoch: 0.717): loss = 70.313 (79.789) (43.129) / ler = 0.116 (0.271) (0.145) / (09:17:02)
+Step 9800 (epoch: 0.732): loss = 62.610 (71.965) (42.388) / ler = 0.115 (0.262) (0.118) / (09:28:43)
+Step 10000 (epoch: 0.747): loss = 77.404 (70.836) (32.324) / ler = 0.140 (0.274) (0.153) / (09:40:18)
+Step 10200 (epoch: 0.762): loss = 79.498 (66.133) (28.312) / ler = 0.108 (0.241) (0.125) / (09:51:54)
+Step 10400 (epoch: 0.777): loss = 62.783 (74.177) (29.252) / ler = 0.108 (0.242) (0.108) / (10:03:33)
+-----EPOCH:0 (90.288 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-7
+=== Dev Data Evaluation ===
+  CER (clean): 13.540895 %
+  WER (clean): 37.951050 %
+  CER (other): 26.675633 %
+  WER (other): 58.945672 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.766 min
+Step 10600 (epoch: 0.791): loss = 65.963 (76.441) (35.381) / ler = 0.111 (0.242) (0.114) / (10:15:10)
+Step 10800 (epoch: 0.806): loss = 85.052 (90.136) (38.745) / ler = 0.114 (0.244) (0.141) / (10:26:48)
+Step 11000 (epoch: 0.821): loss = 96.961 (87.103) (36.879) / ler = 0.133 (0.255) (0.114) / (10:38:26)
+Step 11200 (epoch: 0.836): loss = 92.655 (77.294) (36.336) / ler = 0.137 (0.291) (0.127) / (10:50:04)
+Step 11400 (epoch: 0.851): loss = 80.407 (67.116) (43.719) / ler = 0.149 (0.272) (0.122) / (11:01:43)
+Step 11600 (epoch: 0.866): loss = 69.688 (111.031) (40.930) / ler = 0.110 (0.269) (0.109) / (11:13:21)
+Step 11800 (epoch: 0.881): loss = 87.519 (87.201) (25.359) / ler = 0.130 (0.279) (0.143) / (11:25:00)
+Step 12000 (epoch: 0.896): loss = 76.347 (88.868) (36.943) / ler = 0.115 (0.265) (0.140) / (11:36:36)
+-----EPOCH:0 (90.278 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-8
+=== Dev Data Evaluation ===
+  CER (clean): 13.317158 %
+  WER (clean): 37.231946 %
+  CER (other): 26.669267 %
+  WER (other): 58.745502 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.675 min
+Step 12200 (epoch: 0.911): loss = 69.907 (55.949) (38.755) / ler = 0.105 (0.236) (0.118) / (11:48:12)
+Step 12400 (epoch: 0.926): loss = 58.385 (63.620) (36.114) / ler = 0.104 (0.271) (0.094) / (11:59:47)
+Step 12600 (epoch: 0.941): loss = 66.962 (54.097) (48.600) / ler = 0.119 (0.241) (0.126) / (12:11:20)
+Step 12800 (epoch: 0.956): loss = 99.661 (79.996) (31.633) / ler = 0.138 (0.204) (0.112) / (12:22:56)
+Step 13000 (epoch: 0.971): loss = 67.174 (55.983) (40.776) / ler = 0.103 (0.213) (0.104) / (12:34:32)
+Step 13200 (epoch: 0.986): loss = 80.746 (72.007) (27.290) / ler = 0.126 (0.236) (0.128) / (12:46:08)
+Step 13400 (epoch: 1.001): loss = 73.981 (77.972) (32.422) / ler = 0.124 (0.200) (0.111) / (12:57:45)
+-----EPOCH:1 (89.952 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-9
+=== Dev Data Evaluation ===
+  CER (clean): 12.685083 %
+  WER (clean): 35.951003 %
+  CER (other): 25.136059 %
+  WER (other): 56.779137 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.790 min
+Step 13600 (epoch: 1.015): loss = 52.164 (66.216) (38.407) / ler = 0.097 (0.247) (0.119) / (13:09:24)
+Step 13800 (epoch: 1.030): loss = 65.724 (54.849) (28.163) / ler = 0.126 (0.257) (0.102) / (13:21:03)
+Step 14000 (epoch: 1.045): loss = 69.370 (63.887) (23.695) / ler = 0.145 (0.251) (0.111) / (13:32:39)
+Step 14200 (epoch: 1.060): loss = 66.737 (78.716) (41.311) / ler = 0.109 (0.239) (0.092) / (13:44:15)
+Step 14400 (epoch: 1.075): loss = 50.472 (76.224) (30.948) / ler = 0.104 (0.265) (0.110) / (13:55:54)
+Step 14600 (epoch: 1.090): loss = 72.086 (75.172) (29.717) / ler = 0.109 (0.253) (0.121) / (14:07:33)
+Step 14800 (epoch: 1.105): loss = 76.980 (78.698) (32.572) / ler = 0.134 (0.247) (0.098) / (14:19:10)
+Step 15000 (epoch: 1.120): loss = 62.626 (57.928) (42.144) / ler = 0.096 (0.168) (0.134) / (14:30:46)
+-----EPOCH:1 (90.286 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-10
+=== Dev Data Evaluation ===
+  CER (clean): 12.328060 %
+  WER (clean): 34.800815 %
+  CER (other): 25.070894 %
+  WER (other): 56.349670 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.769 min
+Step 15200 (epoch: 1.135): loss = 56.293 (72.377) (40.094) / ler = 0.085 (0.223) (0.121) / (14:42:25)
+Step 15400 (epoch: 1.150): loss = 59.219 (56.431) (31.751) / ler = 0.090 (0.227) (0.120) / (14:54:01)
+Step 15600 (epoch: 1.165): loss = 71.703 (85.671) (36.818) / ler = 0.121 (0.227) (0.131) / (15:05:38)
+Step 15800 (epoch: 1.180): loss = 74.551 (68.649) (40.448) / ler = 0.118 (0.241) (0.162) / (15:17:14)
+Step 16000 (epoch: 1.195): loss = 72.506 (86.302) (16.285) / ler = 0.115 (0.240) (0.104) / (15:28:49)
+Step 16200 (epoch: 1.210): loss = 58.161 (80.193) (30.520) / ler = 0.120 (0.256) (0.105) / (15:40:26)
+Step 16400 (epoch: 1.225): loss = 60.455 (56.862) (31.905) / ler = 0.092 (0.228) (0.096) / (15:52:06)
+-----EPOCH:1 (90.249 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-11
+=== Dev Data Evaluation ===
+  CER (clean): 11.847904 %
+  WER (clean): 33.861799 %
+  CER (other): 24.523163 %
+  WER (other): 55.246922 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.814 min
+Step 16600 (epoch: 1.239): loss = 70.424 (63.131) (35.120) / ler = 0.124 (0.259) (0.099) / (16:03:44)
+Step 16800 (epoch: 1.254): loss = 68.915 (50.988) (30.305) / ler = 0.101 (0.239) (0.098) / (16:15:20)
+Step 17000 (epoch: 1.269): loss = 72.791 (83.359) (30.402) / ler = 0.121 (0.260) (0.091) / (16:26:59)
+Step 17200 (epoch: 1.284): loss = 60.742 (99.921) (37.973) / ler = 0.095 (0.248) (0.101) / (16:38:35)
+Step 17400 (epoch: 1.299): loss = 63.975 (67.354) (35.103) / ler = 0.108 (0.217) (0.093) / (16:50:12)
+Step 17600 (epoch: 1.314): loss = 70.134 (75.806) (34.023) / ler = 0.099 (0.226) (0.107) / (17:01:49)
+Step 17800 (epoch: 1.329): loss = 62.128 (63.758) (44.504) / ler = 0.092 (0.241) (0.123) / (17:13:29)
+Step 18000 (epoch: 1.344): loss = 64.291 (52.111) (34.658) / ler = 0.087 (0.252) (0.112) / (17:25:06)
+-----EPOCH:1 (90.327 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-12
+=== Dev Data Evaluation ===
+  CER (clean): 11.726532 %
+  WER (clean): 33.069628 %
+  CER (other): 23.975368 %
+  WER (other): 53.303871 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.800 min
+Step 18200 (epoch: 1.359): loss = 57.198 (63.547) (35.828) / ler = 0.093 (0.177) (0.103) / (17:36:48)
+Step 18400 (epoch: 1.374): loss = 54.802 (67.839) (26.340) / ler = 0.088 (0.239) (0.109) / (17:48:28)
+Step 18600 (epoch: 1.389): loss = 58.387 (87.946) (31.935) / ler = 0.090 (0.257) (0.125) / (18:00:04)
+Step 18800 (epoch: 1.404): loss = 45.662 (56.833) (45.084) / ler = 0.085 (0.213) (0.115) / (18:11:46)
+Step 19000 (epoch: 1.419): loss = 53.715 (80.775) (42.684) / ler = 0.105 (0.270) (0.095) / (18:23:24)
+Step 19200 (epoch: 1.434): loss = 55.224 (67.483) (40.414) / ler = 0.092 (0.205) (0.118) / (18:35:00)
+Step 19400 (epoch: 1.449): loss = 69.683 (63.176) (31.229) / ler = 0.107 (0.221) (0.103) / (18:46:36)
+-----EPOCH:1 (90.326 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-13
+=== Dev Data Evaluation ===
+  CER (clean): 11.391014 %
+  WER (clean): 33.033285 %
+  CER (other): 23.863878 %
+  WER (other): 54.214537 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.827 min
+Step 19600 (epoch: 1.463): loss = 55.127 (52.619) (35.154) / ler = 0.100 (0.200) (0.087) / (18:58:12)
+Step 19800 (epoch: 1.478): loss = 59.195 (44.340) (29.746) / ler = 0.108 (0.198) (0.088) / (19:09:54)
+Step 20000 (epoch: 1.493): loss = 48.812 (69.674) (23.081) / ler = 0.098 (0.184) (0.085) / (19:21:29)
+Step 20200 (epoch: 1.508): loss = 65.121 (66.197) (32.370) / ler = 0.103 (0.214) (0.075) / (19:33:05)
+Step 20400 (epoch: 1.523): loss = 67.238 (49.721) (35.844) / ler = 0.098 (0.199) (0.098) / (19:44:42)
+Step 20600 (epoch: 1.538): loss = 57.992 (65.909) (21.858) / ler = 0.091 (0.183) (0.102) / (19:56:22)
+Step 20800 (epoch: 1.553): loss = 66.638 (56.065) (28.011) / ler = 0.105 (0.206) (0.081) / (20:08:01)
+Step 21000 (epoch: 1.568): loss = 52.560 (59.455) (35.439) / ler = 0.086 (0.190) (0.107) / (20:19:38)
+-----EPOCH:1 (90.432 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-14
+=== Dev Data Evaluation ===
+  CER (clean): 11.230771 %
+  WER (clean): 32.593237 %
+  CER (other): 23.988100 %
+  WER (other): 55.080183 %
+Evaluation time: 5.714 min
+Step 21200 (epoch: 1.583): loss = 64.848 (65.576) (41.076) / ler = 0.114 (0.217) (0.118) / (20:31:12)
+Step 21400 (epoch: 1.598): loss = 77.901 (85.231) (30.206) / ler = 0.111 (0.235) (0.123) / (20:42:51)
+Step 21600 (epoch: 1.613): loss = 46.445 (54.289) (38.843) / ler = 0.090 (0.197) (0.123) / (20:54:31)
+Step 21800 (epoch: 1.628): loss = 77.395 (51.850) (36.609) / ler = 0.143 (0.185) (0.104) / (21:06:09)
+Step 22000 (epoch: 1.643): loss = 77.489 (89.926) (32.696) / ler = 0.124 (0.240) (0.104) / (21:17:45)
+Step 22200 (epoch: 1.658): loss = 74.682 (52.569) (37.688) / ler = 0.101 (0.198) (0.105) / (21:29:23)
+Step 22400 (epoch: 1.673): loss = 44.778 (84.167) (26.203) / ler = 0.075 (0.250) (0.115) / (21:40:59)
+-----EPOCH:1 (90.351 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-15
+=== Dev Data Evaluation ===
+  CER (clean): 11.110297 %
+  WER (clean): 31.959346 %
+  CER (other): 23.293315 %
+  WER (other): 51.810777 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.798 min
+Step 22600 (epoch: 1.687): loss = 66.455 (59.232) (35.600) / ler = 0.101 (0.173) (0.110) / (21:52:39)
+Step 22800 (epoch: 1.702): loss = 50.455 (64.321) (30.610) / ler = 0.097 (0.203) (0.105) / (22:04:20)
+Step 23000 (epoch: 1.717): loss = 55.979 (58.802) (31.858) / ler = 0.100 (0.219) (0.106) / (22:15:56)
+Step 23200 (epoch: 1.732): loss = 72.948 (83.433) (33.320) / ler = 0.106 (0.241) (0.099) / (22:27:30)
+Step 23400 (epoch: 1.747): loss = 59.637 (63.602) (21.925) / ler = 0.093 (0.227) (0.097) / (22:39:04)
+Step 23600 (epoch: 1.762): loss = 51.872 (61.174) (30.797) / ler = 0.101 (0.183) (0.091) / (22:50:42)
+Step 23800 (epoch: 1.777): loss = 55.189 (83.147) (39.781) / ler = 0.079 (0.244) (0.122) / (23:02:20)
+Step 24000 (epoch: 1.792): loss = 52.765 (58.938) (28.774) / ler = 0.083 (0.199) (0.093) / (23:13:55)
+-----EPOCH:1 (90.324 min)-----
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-16
+=== Dev Data Evaluation ===
+  CER (clean): 10.967092 %
+  WER (clean): 31.931228 %
+  CER (other): 23.253472 %
+  WER (other): 53.289102 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Evaluation time: 5.738 min
+Step 24200 (epoch: 1.807): loss = 52.751 (72.449) (39.065) / ler = 0.092 (0.231) (0.118) / (23:25:32)
+Step 24400 (epoch: 1.822): loss = 62.997 (65.967) (21.092) / ler = 0.092 (0.193) (0.116) / (23:37:10)
+Step 24600 (epoch: 1.837): loss = 67.863 (79.827) (19.605) / ler = 0.106 (0.220) (0.078) / (23:48:47)
+Model saved in file: /home/tay/Documents/speech_recog/corpus/model/ctc/character/train_all/blstm_ctc_224_5_adam_lr1e-3/model.ckpt-17
+=== Dev Data Evaluation ===
+  CER (clean): 10.745501 %
+  WER (clean): 31.187856 %
+  CER (other): 22.974476 %
+  WER (other): 51.376085 %
+■■■ ↑Best Score (CER [dev-other])↑ ■■■
+Time limit is up. Time spent training: 24 :  0 :  1 
+Total time: 26.514 hour
