@@ -10,5 +10,3 @@ Models with GRU, LSTM and LSTM with peepholes was trained on:
 The training logs, transcribed testing sets, and graphs during training is provided in the results folder.
 
 In the samples folder there are 16 audio samples from the test-clean and test-other sub sets and the corresponding transcription text files.
-
-The modified code used for the training is yet to be uploaded
